@@ -1,2 +1,0 @@
-# Token-based authentication - no config needed
-# Tunnel is managed via CLOUDFLARE_TUNNEL_TOKEN environment variable

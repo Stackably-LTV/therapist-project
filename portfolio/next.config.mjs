@@ -6,12 +6,10 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Your Next.js config here
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  // output: 'standalone', // Disabled - doesn't work with Payload CMS dynamic dependencies
   serverExternalPackages: ['@payloadcms/payload-cloud'],
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     remotePatterns: [
       {
@@ -43,7 +41,6 @@ const nextConfig = {
   webpack: (webpackConfig, { isServer }) => {
     webpackConfig.resolve.extensionAlias = {
       '.cjs': ['.cts', '.cjs'],
-      '.js': ['.ts', '.tsx', '.js', '.jsx'],
       '.mjs': ['.mts', '.mjs'],
     }
 
