@@ -1,0 +1,77 @@
+# Internal tooling (not part of shipped apps)
+scripts/
+
+# Markdown & AI assistant artifacts
+**/*.md
+!README.md
+**/*.mdx
+
+.cursor/
+**/.cursor/
+.cursorrules
+**/.cursorrules
+**/AGENTS.md
+**/CLAUDE.md
+**/.flatten-manifest.json
+.flatten-staging/
+**/.flatten-staging/
+**/agent-transcripts/
+**/*.jsonl
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+bun.lock
+bun.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js
+.next/
+out/
+build/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS & editors
+.DS_Store
+Thumbs.db
+*.pem
+.idea/
+.vscode/
+*.sws
+*.swo
+*~
+
+# Vercel / deploy
+.vercel
+
+# TypeScript cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Test & coverage
+coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Media uploads (portfolio)
+portfolio/media/
+
+# Supabase
+**/supabase/

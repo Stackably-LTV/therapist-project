@@ -1,0 +1,74 @@
+// 🧠 Replit Prompt: Sleek Therapy Website with Modern Design, 3D Graphics, and CTA Focus
+
+// 🔥 Project Name: Not Your Traditional Therapist
+
+// 🎯 GOAL:
+// Build a high-end, minimalist therapy website for trauma treatment intensives (CPT & PE), concierge services, and select traditional therapy options. The design should be modern, immersive, with subtle 3D graphics, soft glow effects, and strong calls-to-action for scheduling appointments.
+
+// 🧩 DESIGN LANGUAGE:
+// - Sleek & minimalist (Apple-style layout)
+// - Soft color palette (off-white, midnight blue, lavender, cream, muted rose)
+// - Subtle 3D floating elements (SVG or Lottie for React)
+// - Glow animations on hover (buttons, section headers, interactive elements)
+// - Smooth transitions and micro-interactions (Framer Motion or Tailwind transitions)
+// - Consistent “Not Your Traditional Therapist” theme across pages
+
+// 💻 TECH STACK:
+// - React + TypeScript
+// - Tailwind CSS for styling
+// - Framer Motion for animation
+// - Optional: Three.js or Lottie for 3D graphics
+// - Vite or Next.js (if needed for routing/pages)
+
+// 📄 PAGES & SECTIONS:
+
+// 1️⃣ Home Page:
+// - Hero Section: 
+//    - "Not Your Traditional Therapist" in bold glowing text
+//    - Subheader: “Modern intensives and concierge care for lasting change”
+//    - CTA: “Book an Appointment” (glowing button, sticky on scroll)
+//    - Floating abstract 3D shapes behind text (blurred, low opacity)
+// - About Section:
+//    - Short story + "Why intensives work"
+//    - Floating testimonial bubbles (3D cards)
+// - Services Preview:
+//    - Grid with cards: [Trauma Intensives], [Concierge Therapy], [Traditional CBT]
+//    - Each card has a hover animation and “Learn More” or “Book Now” button
+// - CTA Banner: “Ready to begin your journey?” → [Schedule Your First Session]
+
+// 2️⃣ Services Page:
+// - 3 glowing cards with hover effects for:
+//    • CPT & PE Therapy Intensives (Flagship)
+//    • Concierge Therapy ($1500 offer)
+//    • Traditional CBT (for anxiety & depression)
+// - Each card links to a dedicated info page
+// - Sticky "Book Appointment" button
+
+// 3️⃣ Blog Page:
+// - SEO-optimized layout
+// - Clean Markdown rendering for blog posts
+// - Glowing sidebar with category filters
+// - Based on this example: https://www.pnwpsychologicalwellness.com/blog/
+
+// 4️⃣ Booking Page:
+// - Embedded booking system (Calendly or custom form)
+// - Contact info and secure intake form
+// - Clean, no distractions
+
+// 5️⃣ Footer:
+// - Social links, minimalist
+// - “NOT YOUR TRADITIONAL THERAPIST” repeating ticker or animated text
+// - Glow hover effects on icons
+
+// 📚 INTEGRATE RESOURCES:
+// Use these as base content for CPT/PE education:
+// https://cptforptsd.com/CPT%20Resources/
+// https://deploymentpsych.org/CPT-videos-main-page
+// https://www.ptsd.va.gov/understand_tx/prolonged_exposure.asp
+
+// 💡 DEV NOTES:
+// - Use `@headlessui/react` for modals and menus
+// - Add global metadata and OpenGraph tags for SEO
+// - Prioritize performance and accessibility
+// - Keep animations lightweight and non-distracting
+// - Use glow + blur sparingly for elegance, not flashiness
